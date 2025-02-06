@@ -9,7 +9,7 @@
 body{
     text-align: center;
     background: linear-gradient(to bottom, #6ab7f5, #fff);
-    min-height: 100vh;/*Estica 100% da Tela*/
+    min-height: 100vh!important;/*Estica 100% da Tela*/
 }
 main{
     display: inline-block;/*Nao ocupa mais 100% da tela(a pokedex)*/
