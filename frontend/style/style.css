@@ -177,6 +177,7 @@ main{
 @media(max-width:895px) {
     #container{
         margin-bottom: 120px;
-        margin-left: 80px;
+        margin-left: 50px;
+        width: 200px; 
     }
 }
