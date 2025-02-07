@@ -200,7 +200,7 @@ main{
 @media(max-width:895px) {
     #container{
         margin-bottom: 120px;
-        margin-left: 110px;
+        margin-left: 80px;
         width: 280px; 
     }
 }
