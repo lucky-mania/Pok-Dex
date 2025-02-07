@@ -51,7 +51,7 @@ nav{
 }
 /*Main*/
 main{
-    margin-top: 100px!important;
+    margin-top: 80px!important;
     display: inline-block;/*Nao ocupa mais 100% da tela(a pokedex)*/
     margin-top: 2%;
     padding: 15px;
@@ -120,6 +120,29 @@ main{
 .button:active{
     box-shadow: inset -4px -4px 0 #222;
     font-size: 0.9rem;
+}
+/*Audio*/
+#myAudio{
+    display: none!important;
+}
+.audio{
+    margin-top: -80px;
+}
+.buttonAudio{
+    font-size: 1.5rem;
+    color: #fafafa;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #252525;
+    background: #252525;
+    box-shadow: 3px 3px #252525;
+    cursor: pointer;
+    margin: 35px 0;
+}
+.buttonAudio.active{
+    box-shadow: none;
+    transform: translate(3px, 3px); 
 }
 /*container*/
 #container{

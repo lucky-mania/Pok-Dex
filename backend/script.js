@@ -57,7 +57,12 @@ buttonNext.addEventListener('click', () => {
 });
 
 renderPokemon('1');
+/*Audio*/
 
+function playAudio() {
+    let x = document.getElementById('myAudio');
+    x.play();
+}
 /*Acordion*/
 const acordions = document.querySelectorAll(".acordion");
 
