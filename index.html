@@ -16,35 +16,36 @@
         <a href="" class="logo">Pokémon <img src="frontend/imgs/favicon-16x16.png" width="21px" alt=""></a>
         <ul class="nav-list">
             <li><a href="#Pokedex">Pokedex</a></li>
-            <li><a href="">Sobre</a></li>
+            <li><a href="https://www.instagram.com/joe_alvsz/" target="_blank">Contato</a></li>
         </ul>
        </nav>
     </header>
 
-    <main id="Pokedex">
-        <img src="#" alt="pokemon" class="pokemon__image">
-
-        <h1 class="pokemon__data">
-            <span class="pokemon__number"></span>- 
-            <span class="pokemon__name"></span>
-        </h1>
-
-        <form class="form">
-            <input type="search" class="input_search" placeholder="Nome ou Numero" required>
-        </form>
-        <div class="buttons">
-            <button class="button btn-prev">&lt Voltar </button>
-            <button class="button btn-next">Proximo &gt</button>
         </div>
-        <img src="frontend/imgs/pokedex.png" alt="pokedex-backgraund" class="pokedex">
-    </main>
 
-    <div class="audio">
-        <audio id="myAudio" controls>
-            <source src="frontend/audio/PokeDex.mp3" type="audio/mp3"><!--audio, 1temporada 2ep-->>
-        </audio><br><br>
-        <button onclick="playAudio()" class="buttonAudio">PokéDex</button>
-    </div>
+        <main id="Pokedex">
+            <img src="#" alt="pokemon" class="pokemon__image">
+            <h1 class="pokemon__data">
+                <span class="pokemon__number"></span>-
+                <span class="pokemon__name"></span>
+            </h1>
+            <form class="form">
+                <input type="search" class="input_search" placeholder="Nome ou Numero" required>
+            </form>
+            <div class="buttons">
+                <button class="button btn-prev">&lt Voltar </button>
+                <button class="button btn-next">Proximo &gt</button>
+            </div>
+            <img src="frontend/imgs/pokedex.png" alt="pokedex-backgraund" class="pokedex">
+        </main>
+
+        <div class="audio">
+            <audio id="myAudio" controls>
+                <source src="frontend/audio/PokeDex.mp3" type="audio/mp3"><!--audio, 1temporada 2ep-->>
+            </audio><br><br>
+            <button onclick="playAudio()" class="buttonAudio">PokéDex</button>
+        </div>
+    
 
      <script src="backend/script.js"></script>
 </body>
