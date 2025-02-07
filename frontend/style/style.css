@@ -124,10 +124,11 @@ main{
 /*container*/
 #container{
     display: flex;
-    margin-left: 760px;
+    margin-left: 840px;
     flex-direction: column;
     gap: 8px;
-    width: 500px; 
+    width: 400px; 
+    margin-bottom: 30px;
 }
 .acordion{
     background-color: #23232e;
@@ -175,7 +176,7 @@ main{
 }
 @media(max-width:895px) {
     #container{
-        margin-bottom: 100px;
-        margin-left: 100px;
+        margin-bottom: 120px;
+        margin-left: 130px;
     }
 }
