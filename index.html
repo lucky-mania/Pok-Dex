@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>pokédex</title>
     <!-- links -->
     <link rel="shortcut icon" href="frontend/imgs/favicon-16x16.png" type="image/x-icon">
@@ -19,6 +20,7 @@
         </ul>
        </nav>
     </header>
+
     <main id="Pokedex">
         <img src="#" alt="pokemon" class="pokemon__image">
 
@@ -36,8 +38,22 @@
         </div>
         <img src="frontend/imgs/pokedex.png" alt="pokedex-backgraund" class="pokedex">
     </main>
-    <div>
-    
+
+    <div id="container">
+
+    <div class="acordion">
+        <button class="acordion-header">
+            <span>O que é a Pokédex?</span>
+            <i class="fa-solid fa-chevron-down arrow"></i>
+        </button>
+
+        <div class="accordion-body">
+            <p>
+                A Pokédex é um banco de dados eletrônico que fornece informações sobre os Pokémon, como suas características, habilidades, habitats e evoluções. Ela aparece nos jogos, anime e mangás da franquia.
+            </p>
+        </div>
+    </div>
+
     </div>
      <script src="backend/script.js"></script>
 </body>

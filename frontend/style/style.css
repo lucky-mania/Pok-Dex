@@ -8,7 +8,7 @@
 }
 body{
     text-align: center;
-    background: linear-gradient(to bottom, #1b1b22, red);
+    background: linear-gradient(to bottom, #1b1b22, rgb(214, 80, 80));
     min-height: 100vh!important;/*Estica 100% da Tela*/
 }
 /*header*/
@@ -120,4 +120,62 @@ main{
 .button:active{
     box-shadow: inset -4px -4px 0 #222;
     font-size: 0.9rem;
+}
+/*container*/
+#container{
+    display: flex;
+    margin-left: 760px;
+    flex-direction: column;
+    gap: 8px;
+    width: 500px; 
+}
+.acordion{
+    background-color: #23232e;
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+    box-shadow:  5px 5px 5px rgba(0,0,0, 0.1);
+}
+.acordion-header{
+    color: #fff;
+    font-size: 20px!important;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    cursor: pointer;
+}
+.acordion-header span{
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.accordion-body{
+    color: #fff;
+    font-size: 19px;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: opacity .3s;
+}
+.accordion-body.active{
+    padding: 5px 0px;
+    height: 100%;
+    opacity: 1;
+}
+.arrow{
+    transition: transform .2s linear;
+}
+.acordion:has(.active) .arrow{
+    transform: rotate(180deg);
+}
+@media(max-width:895px) {
+    #container{
+        margin-bottom: 100px;
+        margin-left: 100px;
+    }
 }

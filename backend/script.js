@@ -57,3 +57,13 @@ buttonNext.addEventListener('click', () => {
 });
 
 renderPokemon('1');
+
+/*Acordion*/
+const acordions = document.querySelectorAll(".acordion");
+
+acordions.forEach(acordion => {
+    acordion.addEventListener("click", () => {
+        const body = acordion.querySelector(".accordion-body");
+        body.classList.toggle('active');
+    })
+})
