@@ -135,7 +135,7 @@ main{
     display: none!important;
 }
 .audio{
-    margin-top: -80px;
+    margin-top: -80px;/*mudar*/
 }
 .buttonAudio{
     font-size: 1.5rem;
