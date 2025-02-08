@@ -64,7 +64,7 @@ main{
     height: 200px;
     width: 100%;
     top: 45%;
-    border-top: 10px solid #23232e;
+    border-top: 30px solid #23232e;
 }
 .pokedex{
     width: 100%;/*ocupa 100% do espaço denido ao ser reduzido(responsividade)*/
@@ -161,6 +161,6 @@ main{
     height: 200px;
     width: 100%;
     top: 45%;
-    border-top: 10px solid #23232e;
+    border-top: 30px solid #23232e;
 }
 }
